@@ -1,0 +1,121 @@
+/* 
+ Author: Omar Lopez Vie
+ CSC 17B C++
+ Project: Catalog
+ Written on 10/20/2017
+*/
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+label{
+    font-family: 'Work Sans', sans-serif;
+    margin: 2% 30% 0% 30%;
+    color:darkslategray;
+    font-size: 200%;   
+
+}
+
+.questions{
+    font-family: Lucida Console, Courier, monospace;
+    padding-left: 5%; 
+    padding-right: 5%;
+    color: gray ;
+    line-height: 2;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#ask{
+    margin: 30%;
+}
+
+.title{
+    background: #4CAF50 !important;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 5%;;
+    color: whitesmoke;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block-level {
+    width: 40%;
+    height: 80%;
+    margin:2%;
+    box-shadow: 0 -4px 2px -2px rgba(0,0,0,0.90);
+    display: inline-block;
+    overflow: hidden;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cart{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 500%;
+}
+
+.cart:hover{
+    background-color: #4CAF50;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2% 30% 0% 30%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
